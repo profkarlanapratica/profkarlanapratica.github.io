@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Prof Karla na Prática</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #ffffff;
+      text-align: center;
+      padding: 35px 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    header h1 {
+      font-size: 34px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 17px;
+      color: #666;
+    }
+
+    nav {
+      background: #333;
+      text-align: center;
+      padding: 14px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 65px 20px;
+      background: #f1f7f4;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .conteudo {
+      max-width: 1100px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    .conteudo h2 {
+      text-align: center;
+      margin-bottom: 35px;
+      font-size: 28px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .card span {
+      font-size: 38px;
+    }
+
+    .card h3 {
+      margin: 12px 0 8px;
+    }
+
+    .card p {
+      color: #666;
+    }
+
+    .sobre {
+      background: #ffffff;
+      padding: 55px 20px;
+      text-align: center;
+    }
+
+    .sobre div {
+      max-width: 750px;
+      margin: auto;
+    }
+
+    .sobre h2 {
+      margin-bottom: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #333;
+      color: white;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      .hero h2 {
+        font-size: 25px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 7px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Prof Karla na Prática</h1>
+  <p>Educação • Ciência • Sustentabilidade</p>
+</header>
+
+<nav>
+  <a href="#">Início</a>
+  <a href="#materiais">Materiais</a>
+  <a href="#sobre">Sobre</a>
+</nav>
+
+<section class="hero">
+  <h2>Aprender, investigar e transformar 🌱</h2>
+
+  <p>
+    Ideias, experiências, projetos e materiais pedagógicos
+    para tornar a aprendizagem mais significativa,
+    criativa e conectada com o mundo.
+  </p>
+</section>
+
+<section class="conteudo" id="materiais">
+
+  <h2>Explore por área</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <span>🎨</span>
+      <h3>Educação Infantil</h3>
+      <p>
+        Atividades, planejamentos, projetos e propostas
+        para uma aprendizagem cheia de descobertas.
+      </p>
+    </div>
+
+    <div class="card">
+      <span>🧪</span>
+      <h3>Química</h3>
+      <p>
+        Atividades, experimentos, conteúdos e materiais
+        para aproximar a Química da realidade dos estudantes.
+      </p>
+    </div>
+
+    <div class="card">
+      <span>🌱</span>
+      <h3>Educação Ambiental</h3>
+      <p>
+        Projetos, sustentabilidade, meio ambiente,
+        investigação e práticas para transformar o território.
+      </p>
+    </div>
+
+    <div class="card">
+      <span>📚</span>
+      <h3>Materiais Pedagógicos</h3>
+      <p>
+        Recursos gratuitos e materiais preparados
+        para facilitar o dia a dia de professores.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="sobre" id="sobre">
+
+  <div>
+    <h2>Olá, eu sou a Prof Karla! 👋</h2>
+
+    <p>
+      Este espaço nasceu para compartilhar experiências,
+      projetos e materiais construídos a partir da prática
+      educativa, unindo educação, ciência, criatividade
+      e cuidado com o meio ambiente.
+    </p>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Prof Karla na Prática</p>
+</footer>
+
+</body>
+</html>
