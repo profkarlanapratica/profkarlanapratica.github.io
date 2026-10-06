@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação Infantil | Prof Karla na Prática</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            color: #23344d;
+        }
+
+        header {
+            background: #172033;
+            color: white;
+            padding: 24px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h2 {
+            margin-bottom: 5px;
+        }
+
+        .logo p {
+            font-size: 14px;
+            color: #cbd5e1;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 22px;
+        }
+
+        .hero {
+            background: #e6f5fa;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+            color: #45566d;
+        }
+
+        .conteudo {
+            max-width: 1100px;
+            margin: auto;
+            padding: 55px 25px;
+        }
+
+        .titulo {
+            text-align: center;
+            margin-bottom: 35px;
+            font-size: 28px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 14px;
+            padding: 28px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        }
+
+        .icone {
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            line-height: 1.5;
+            color: #566477;
+            margin-bottom: 20px;
+        }
+
+        .botao {
+            display: inline-block;
+            background: #18324b;
+            color: white;
+            text-decoration: none;
+            padding: 11px 18px;
+            border-radius: 7px;
+            font-weight: bold;
+        }
+
+        .aviso {
+            margin-top: 40px;
+            background: #eef8f1;
+            border-radius: 14px;
+            padding: 28px;
+            text-align: center;
+        }
+
+        .aviso h3 {
+            margin-bottom: 10px;
+        }
+
+        .voltar {
+            display: inline-block;
+            margin-top: 25px;
+            color: #18324b;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #172033;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 650px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <h2>Prof Karla na Prática</h2>
+        <p>Educação · Ciência · Sustentabilidade</p>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="gratuitos.html">Materiais Gratuitos</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>🧸 Educação Infantil</h1>
+    <p>
+        Atividades, propostas e recursos pedagógicos pensados para tornar
+        as experiências das crianças mais significativas, criativas e investigativas.
+    </p>
+</section>
+
+<main class="conteudo">
+
+    <h2 class="titulo">Materiais gratuitos</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icone">🎨</div>
+            <h3>Atividades e propostas</h3>
+            <p>
+                Recursos para apoiar experiências, brincadeiras e propostas
+                pedagógicas na Educação Infantil.
+            </p>
+            <span class="botao">Em breve</span>
+        </div>
+
+        <div class="card">
+            <div class="icone">🌱</div>
+            <h3>Projetos pedagógicos</h3>
+            <p>
+                Ideias de projetos envolvendo investigação, natureza,
+                sustentabilidade e participação das crianças.
+            </p>
+            <span class="botao">Em breve</span>
+        </div>
+
+        <div class="card">
+            <div class="icone">📚</div>
+            <h3>Planejamentos</h3>
+            <p>
+                Sugestões para auxiliar a organização da prática pedagógica
+                e das experiências em sala.
+            </p>
+            <span class="botao">Em breve</span>
+        </div>
+
+    </div>
+
+    <div class="aviso">
+        <h3>🌱 Novos materiais serão adicionados por aqui</h3>
+        <p>
+            Aos poucos, esta área receberá materiais gratuitos para baixar
+            e utilizar na prática pedagógica.
+        </p>
+
+        <a class="voltar" href="gratuitos.html">← Voltar para Materiais Gratuitos</a>
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 Prof Karla na Prática · Educação · Ciência · Sustentabilidade</p>
+</footer>
+
+</body>
+</html>
