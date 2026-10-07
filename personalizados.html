@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Materiais Personalizados | Prof Karla na Prática</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff9f7;
+            color: #3d4543;
+        }
+
+        header {
+            background: #5b8f86;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+        }
+
+        header h2 {
+            margin-bottom: 6px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 45px 20px 30px;
+            background: #fff1f3;
+        }
+
+        .hero h1 {
+            color: #d95f7d;
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 760px;
+            margin: auto;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .conteudo {
+            max-width: 900px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        .como-funciona {
+            margin-bottom: 40px;
+        }
+
+        .como-funciona h2 {
+            color: #5b8f86;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .passos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 15px;
+        }
+
+        .passo {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+        }
+
+        .numero {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .passo h3 {
+            color: #d95f7d;
+            margin-bottom: 8px;
+        }
+
+        .passo p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .formulario {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            border-top: 7px solid #d95f7d;
+        }
+
+        .formulario h2 {
+            color: #5b8f86;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .formulario .introducao {
+            text-align: center;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 18px;
+            margin-bottom: 7px;
+            color: #416f67;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccd9d6;
+            border-radius: 9px;
+            font-size: 15px;
+            font-family: Arial, sans-serif;
+            background: #fbfdfc;
+        }
+
+        textarea {
+            min-height: 130px;
+            resize: vertical;
+        }
+
+        .enviar {
+            display: block;
+            width: 100%;
+            margin-top: 25px;
+            padding: 14px;
+            border: none;
+            border-radius: 25px;
+            background: #d95f7d;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .enviar:hover {
+            background: #bf4c69;
+        }
+
+        .prazo {
+            background: #e9f5f2;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .prazo strong {
+            color: #416f67;
+        }
+
+        .importante {
+            background: #fff3d2;
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 20px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .voltar {
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .voltar a {
+            color: #416f67;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #416f67;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Prof Karla na Prática</h2>
+    <p>Educação · Ciência · Sustentabilidade</p>
+</header>
+
+
+<section class="hero">
+
+    <div style="font-size:50px; margin-bottom:10px;">
+        ✨📚💡
+    </div>
+
+    <h1>Material Personalizado</h1>
+
+    <p>
+        Precisa de um material específico para sua turma?
+        Conte o que você precisa e solicite um orçamento para
+        a produção de um material pensado especialmente para
+        sua realidade pedagógica.
+    </p>
+
+</section>
+
+
+<main class="conteudo">
+
+    <section class="como-funciona">
+
+        <h2>Como funciona?</h2>
+
+        <div class="passos">
+
+            <div class="passo">
+                <div class="numero">📝</div>
+                <h3>1. Solicite</h3>
+                <p>
+                    Preencha o formulário contando o que você
+                    precisa para sua turma.
+                </p>
+            </div>
+
+            <div class="passo">
+                <div class="numero">💬</div>
+                <h3>2. Receba o orçamento</h3>
+                <p>
+                    Sua solicitação será analisada e você receberá
+                    o valor e as condições para produção.
+                </p>
+            </div>
+
+            <div class="passo">
+                <div class="numero">✅</div>
+                <h3>3. Confirme</h3>
+                <p>
+                    Se aprovar o orçamento, você confirma o pedido
+                    e a produção é iniciada.
+                </p>
+            </div>
+
+            <div class="passo">
+                <div class="numero">💚</div>
+                <h3>4. Receba</h3>
+                <p>
+                    Seu material personalizado será produzido
+                    dentro do prazo combinado.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="prazo">
+
+        ⏱️ <strong>Prazo padrão de produção: até 48 horas
+        após a confirmação do pedido.</strong>
+
+        <br><br>
+
+        Solicitações de maior complexidade podem necessitar de
+        um prazo diferente. Nesse caso, você será informado
+        antes de confirmar o pedido.
+
+    </div>
+
+
+    <section class="formulario">
+
+        <h2>✨ Solicite seu orçamento</h2>
+
+        <p class="introducao">
+            Preencha as informações abaixo para que eu possa
+            entender exatamente o material que você precisa.
+        </p>
+
+
+        <form action="https://formsubmit.co/profkarlanapratica@gmail.com"
+              method="POST">
+
+            <input type="hidden"
+                   name="_subject"
+                   value="Nova solicitação - Prof Karla na Prática">
+
+            <input type="hidden"
+                   name="_captcha"
+                   value="false">
+
+
+            <label>Nome completo *</label>
+
+            <input type="text"
+                   name="Nome"
+                   required>
+
+
+            <label>E-mail *</label>
+
+            <input type="email"
+                   name="Email"
+                   required>
+
+
+            <label>Telefone / WhatsApp *</label>
+
+            <input type="tel"
+                   name="WhatsApp"
+                   placeholder="(00) 00000-0000"
+                   required>
+
+
+            <label>Etapa de ensino *</label>
+
+            <select name="Etapa de ensino" required>
+
+                <option value="">
+                    Selecione
+                </option>
+
+                <option>Educação Infantil</option>
+
+                <option>Ensino Fundamental - Anos Iniciais</option>
+
+                <option>Ensino Fundamental - Anos Finais</option>
+
+                <option>Ensino Médio</option>
+
+                <option>Ensino Superior</option>
+
+                <option>Educação Especial e Inclusiva</option>
+
+                <option>Outro</option>
+
+            </select>
+
+
+            <label>Série / Ano / Turma</label>
+
+            <input type="text"
+                   name="Serie ou turma"
+                   placeholder="Ex.: 5º ano, 1ª série do Ensino Médio...">
+
+
+            <label>Área ou disciplina *</label>
+
+            <input type="text"
+                   name="Area ou disciplina"
+                   placeholder="Ex.: Educação Infantil, Química, Ciências..."
+                   required>
+
+
+            <label>Que tipo de material você precisa? *</label>
+
+            <select name="Tipo de material" required>
+
+                <option value="">
+                    Selecione
+                </option>
+
+                <option>Atividade</option>
+
+                <option>Planejamento</option>
+
+                <option>Sequência didática</option>
+
+                <option>Projeto pedagógico</option>
+
+                <option>Material inclusivo / adaptado</option>
+
+                <option>Experimento ou proposta investigativa</option>
+
+                <option>Material visual para sala</option>
+
+                <option>Outro</option>
+
+            </select>
+
+
+            <label>Tema ou conteúdo *</label>
+
+            <input type="text"
+                   name="Tema ou conteudo"
+                   placeholder="Sobre qual tema você precisa do material?"
+                   required>
+
+
+            <label>
+                Precisa de alguma adaptação específica?
+            </label>
+
+            <textarea
+                name="Adaptacoes"
+                placeholder="Ex.: TEA, estudante não verbal, apoio visual, dificuldade de leitura..."></textarea>
+
+
+            <label>
+                Conte com detalhes o que você precisa *
+            </label>
+
+            <textarea
+                name="Descricao do pedido"
+                placeholder="Explique como você imagina o material, quantidade de páginas, objetivo, necessidades da turma e outras informações importantes."
+                required></textarea>
+
+
+            <label>
+                Para quando você precisa do material?
+            </label>
+
+            <input type="date"
+                   name="Data desejada">
+
+
+            <div class="importante">
+
+                <strong>📌 Importante:</strong>
+
+                o envio deste formulário representa apenas uma
+                <strong>solicitação de orçamento</strong> e não gera
+                cobrança ou compromisso de compra.
+
+                A produção e a contagem do prazo de entrega começam
+                somente após a aprovação do orçamento e a
+                confirmação do pedido.
+
+            </div>
+
+
+            <button class="enviar" type="submit">
+
+                ✨ Enviar solicitação de orçamento
+
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <div class="voltar">
+
+        <a href="index.html">
+            ← Voltar para a página inicial
+        </a>
+
+    </div>
+
+</main>
+
+
+<footer>
+    Prof Karla na Prática · Educação · Ciência · Sustentabilidade
+</footer>
+
+</body>
+
+</html>
